@@ -1,6 +1,5 @@
 import React from "react";
 import Image from "next/image";
-import imageUrl from "../constants/data";
 import { recipes } from "../constants/data";
 
 const RecipeCard = () => {

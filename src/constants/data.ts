@@ -4,7 +4,7 @@ import { Recipe } from "@/constants/types";
 
 export const recipes: Recipe[] = [
   {
-    imageUrl: "/public/images/image-omelette.jpeg",
+    imageUrl: "/images/image-omelette.jpeg",
     title: "Simple Omelette Recipe",
     subText:
       "An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked to perfection, optionally filled with your choice of cheese, vegetables or meat.",
