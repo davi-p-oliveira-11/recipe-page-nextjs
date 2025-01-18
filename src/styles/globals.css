@@ -2,5 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
+@layer utilities {
+  .body-background {
+    @apply min-h-screen bg-background p-6;
+  }
+
+  .recipe-card {
+    @apply max-w-2xl mx-auto bg-white shadow-md rounded-lg p-6;
+  }
 }

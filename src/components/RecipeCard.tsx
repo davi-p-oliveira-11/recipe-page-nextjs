@@ -6,8 +6,8 @@ const RecipeCard = () => {
   const recipe = recipes[0];
 
   return (
-    <main className="min-h-screen bg-background p-6">
-      <div className="max-w-2xl mx-auto bg-white shadow-md rounded-lg p-6">
+    <main className="body-background">
+      <div className="recipe-card">
         <Image
           src={recipe.imageUrl}
           alt={recipe.title}
