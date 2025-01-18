@@ -1,6 +1,6 @@
 // struture of teh data
 
-import { Recipe } from "@/contants/types";
+import { Recipe } from "@/constants/types";
 
 export const recipes: Recipe[] = [
   {
