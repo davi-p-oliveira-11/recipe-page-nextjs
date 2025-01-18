@@ -11,11 +11,13 @@ const RecipeCard = () => {
         <Image
           src={recipe.imageUrl}
           alt={recipe.title}
-          width={480}
-          height={200}
+          width={620}
+          height={240}
         />
 
-        <h1>{recipe.title}</h1>
+        <h1 className="text-[2.5rem] font-bold mt-4 font-young-serif text-stone900">
+          {recipe.title}
+        </h1>
       </div>
     </main>
   );

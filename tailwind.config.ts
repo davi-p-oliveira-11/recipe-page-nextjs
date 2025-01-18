@@ -19,8 +19,8 @@ export default {
         rose50: "#fff4f9",
       },
       fontFamily: {
-        youngSerif: ["Young Serif", "sans-serif"],
-        outfit: ["Outfit", "sans-serif"],
+        "young-serif": ["var(--font-young-serif)"],
+        outfit: ["var(--font-outfit)"],
       },
     },
     screens: {
